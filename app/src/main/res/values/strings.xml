@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Museum Rate</string>
+    <string name="send_to">Send to</string>
+    <string name="list_tiel">Select a exhibition to rate</string>
+    <string name="welcome_title">Thanks for visit the virtual museum</string>
+    <string name="welcome_description">We appreciate if you take a few minutes to rate our exhibitions</string>
+    <string name="start">Start</string>
+    <string name="description_title">Description</string>
+    <string name="artist_title">Artist</string>
+    <string name="year_title">yYar</string>
+    <string name="rate_title">Rate</string>
+    <string name="action_settings">Sattings</string>
 </resources>

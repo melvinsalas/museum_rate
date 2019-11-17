@@ -1,11 +1,9 @@
 package com.melvinsalas.museumrate.adapters;
 
-import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -43,8 +41,6 @@ public class ExhibitionAdapter extends BaseAdapter {
         return position;
     }
 
-
-    @SuppressLint("SetTextI18n") //
     @Override
     public View getView(int position, View view, ViewGroup parent) {
         ViewHolder holder;
@@ -77,26 +73,3 @@ public class ExhibitionAdapter extends BaseAdapter {
         }
     }
 }
-
-
-
-//public class CustomList extends ArrayAdapter<String> {
-//    private final Activity context;
-//    private final String[] web;
-//
-//    CustomList(Activity context,
-//               String[] web) {
-//        super(context, R.layout.row, web);
-//        this.context = context;
-//        this.web = web;
-//    }
-//
-//    @Override
-//    public View getView(int position, View view, @NonNull ViewGroup parent) {
-//        LayoutInflater inflater = context.getLayoutInflater();
-//        @SuppressLint({"ViewHolder", "InflateParams"}) View rowView = inflater.inflate(R.layout.row, null, true);
-//        TextView txtTitle = rowView.findViewById(R.id.txt);
-//        txtTitle.setText(web[position]);
-//        return rowView;
-//    }
-//}

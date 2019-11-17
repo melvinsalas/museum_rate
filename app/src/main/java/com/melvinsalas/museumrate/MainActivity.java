@@ -29,11 +29,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ExhibitionsActivity.class);
                 startActivity(intent);
-                try {
-                    this.finalize();
-                } catch (Throwable throwable) {
-                    throwable.printStackTrace();
-                }
+                finish();
             }
         });
     }
